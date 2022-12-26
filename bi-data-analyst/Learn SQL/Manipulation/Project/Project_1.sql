@@ -31,3 +31,7 @@ SET
     name = 'Storm'
 WHERE
     name = CAST('Ororo Munroe' AS TEXT);
+
+GO
+ALTER TABLE friends
+ADD email text GO
