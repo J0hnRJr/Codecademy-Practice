@@ -15,3 +15,14 @@ FROM
     friends;
 
 GO
+INSERT INTO
+    friends (id, name, birthday)
+VALUES
+    (2, 'John Smith', '09/10/1990');
+
+INSERT INTO
+    friends (id, name, birthday)
+VALUES
+    (3, 'Harry Potter', '02/20/1980');
+
+GO
