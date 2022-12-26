@@ -40,3 +40,8 @@ SET
     email = 'storm@codecademy.com';
 
 GO
+DELETE FROM friends
+WHERE
+    name = CAST('storm' AS TEXT);
+
+GO
