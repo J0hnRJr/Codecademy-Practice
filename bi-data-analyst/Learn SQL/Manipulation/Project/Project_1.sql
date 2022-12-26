@@ -45,3 +45,7 @@ WHERE
     name = CAST('storm' AS TEXT);
 
 GO
+SELECT
+    *
+FROM
+    friends;
