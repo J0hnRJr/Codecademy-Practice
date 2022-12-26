@@ -26,3 +26,10 @@ VALUES
     (3, 'Harry Potter', '02/20/1980');
 
 GO
+UPDATE friends
+SET
+    name = 'Storm'
+WHERE
+    name = 'Ororo Munroe';
+
+GO
