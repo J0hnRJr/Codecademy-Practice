@@ -35,3 +35,8 @@ WHERE
 GO
 ALTER TABLE friends
 ADD email text GO
+UPDATE friends
+SET
+    email = 'storm@codecademy.com';
+
+GO
