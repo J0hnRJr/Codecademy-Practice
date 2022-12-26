@@ -1,4 +1,4 @@
--- all lines provided by Codecademy
+-- All lines provided by Codecademy
 SELECT
     *
 FROM
