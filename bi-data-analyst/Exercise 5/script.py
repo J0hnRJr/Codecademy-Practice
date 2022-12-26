@@ -30,3 +30,4 @@ y_lower = [i - (i*0.15) for i in viewers_hour]
 plt.fill_between(hour, y_lower, y_upper, alpha=0.2)
 
 # Add the code here:
+plt.show()
