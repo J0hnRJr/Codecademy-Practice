@@ -9,3 +9,9 @@ VALUES
     (1, 'Ororo Munroe', '05/30/1940');
 
 GO
+SELECT
+    *
+FROM
+    friends;
+
+GO
