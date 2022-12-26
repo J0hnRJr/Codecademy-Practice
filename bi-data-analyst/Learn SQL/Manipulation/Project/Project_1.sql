@@ -1,6 +1,6 @@
 -- All lines written by John Renodin
 CREATE TABLE
-    friends (INTEGER id, TEXT name, DATE birthday);
+    friends (id INTEGER, name TEXT, birthday DATE);
 
 GO
 INSERT INTO
@@ -30,6 +30,4 @@ UPDATE friends
 SET
     name = 'Storm'
 WHERE
-    name = 'Ororo Munroe';
-
-GO
+    name = CAST('Ororo Munroe' AS TEXT);
