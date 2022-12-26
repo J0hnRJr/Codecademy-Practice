@@ -30,19 +30,19 @@ UPDATE friends
 SET
     name = 'Storm'
 WHERE
-    name = CAST('Ororo Munroe' AS TEXT);
+    CAST(name AS VARCHAR(50)) = 'Ororo Munroe';
 
 GO
 ALTER TABLE friends
 ADD email text GO
 UPDATE friends
 SET
-    email = 'storm@codecademy.com';
+    email = CAST('storm@codecademy.com' AS TEXT);
 
 GO
 DELETE FROM friends
 WHERE
-    name = CAST('storm' AS TEXT);
+    CAST(name AS VARCHAR(50)) = 'storm';
 
 GO
 SELECT
