@@ -4,5 +4,7 @@ SELECT
 FROM
     movies
 WHERE
-    YEAR > 2014
-    OR genre = 'action';
+    genre = 'comedy'
+    OR genre = 'romance';
+
+--John Renodin modified lines 7 and 8 as instructed
