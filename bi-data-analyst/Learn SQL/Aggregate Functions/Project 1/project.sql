@@ -1,5 +1,7 @@
 --All lines written by John Renodin
 SELECT
-    MAX(raised) AS 'MaxRaised'
+    MAX(raised) AS 'AmountRaisedDuringSeedStage'
 FROM
-    startups;
+    startups
+WHERE
+    stage = 'Seed';
