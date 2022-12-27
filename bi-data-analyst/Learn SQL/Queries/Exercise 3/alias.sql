@@ -1,5 +1,5 @@
 --All lines provided by Codecademy
 SELECT
-    name AS '______'
+    imdb_rating AS 'IMDb' -- John Renodin modified as instructed
 FROM
     movies;
