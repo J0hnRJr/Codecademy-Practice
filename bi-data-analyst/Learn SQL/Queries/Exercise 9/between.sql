@@ -4,4 +4,4 @@ SELECT
 FROM
     movies
 WHERE
-    name BETWEEN 'D' AND 'G'
+    YEAR BETWEEN 1970 AND 1979
