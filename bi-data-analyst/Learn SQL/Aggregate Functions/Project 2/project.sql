@@ -1,8 +1,5 @@
---All lines provided by Codecademy
+--All lines written by John Renodin
 SELECT
-    title,
-    score
+    SUM(score)
 FROM
-    hacker_news
-ORDER BY
-    score DESC LIMIT 5;
+    hacker_news;
