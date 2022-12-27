@@ -1,12 +1,13 @@
 --All lines written by John Renodin
 SELECT
-USER,
-COUNT(*)
+    CASE
+        WHEN url LIKE '%github.com%' THEN 'GitHub'
+        WHEN url LIKE '%medium.com%' THEN 'Medium'
+        WHEN url LIKE '%nytimes.com%' THEN 'New York Times'
+        ELSE 'Other'
+    END AS 'Source',
+    COUNT(*)
 FROM
     hacker_news
-WHERE
-    url LIKE '%watch?v=dQw4w9WgXcQ%'
 GROUP BY
-USER
-ORDER BY
-    COUNT(*) DESC;
+    Source;
