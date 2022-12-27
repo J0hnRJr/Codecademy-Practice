@@ -6,3 +6,5 @@ FROM
     startups
 GROUP BY
     category
+ORDER BY
+    2 DESC
