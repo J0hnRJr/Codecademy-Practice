@@ -10,4 +10,4 @@ SELECT
 FROM
     hacker_news
 GROUP BY
-    Source;
+    1;
