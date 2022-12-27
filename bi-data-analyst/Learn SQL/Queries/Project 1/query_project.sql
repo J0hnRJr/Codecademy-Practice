@@ -1,5 +1,7 @@
 --All lines written by John Renodin
-SELECT DISTINCT
-    cuisine
+SELECT
+    name
 FROM
-    nomnom;
+    nomnom
+WHERE
+    cuisine = 'Chinese';
