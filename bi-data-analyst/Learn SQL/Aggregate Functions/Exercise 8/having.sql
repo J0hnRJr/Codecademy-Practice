@@ -1,4 +1,4 @@
---Code Provided by Codecademy
+--Code Provided by Codecademy modified by John Renodin
 SELECT
     price,
     ROUND(AVG(downloads)),
@@ -6,4 +6,8 @@ SELECT
 FROM
     fake_apps
 GROUP BY
-    price;
+    price
+HAVING
+    COUNT(*) > 10;
+
+--John Renodin added HAVING clause
