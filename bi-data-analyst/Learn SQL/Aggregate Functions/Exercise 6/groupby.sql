@@ -1,10 +1,8 @@
--- All lines provided by Codecademy
+-- All lines written by John Renodin
 SELECT
-    price,
-    COUNT(*)
+    category,
+    SUM(downloads)
 FROM
     fake_apps
-WHERE
-    downloads > 20000 -- John Renodin added WHERE clause
 GROUP BY
-    price;
+    category;
