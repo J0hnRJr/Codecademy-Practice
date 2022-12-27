@@ -3,5 +3,5 @@ SELECT
     name
 FROM
     nomnom
-WHERE
-    health IS NULL;
+ORDER BY
+    review DESC LIMIT 10;
