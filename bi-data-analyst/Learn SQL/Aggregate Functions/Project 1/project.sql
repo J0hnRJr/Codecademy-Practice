@@ -1,10 +1,8 @@
 --All lines written by John Renodin
 SELECT
     category,
-    ROUND(AVG(valuation), 2)
+    COUNT(*)
 FROM
     startups
 GROUP BY
-    category
-ORDER BY
-    2 DESC
+    category;
