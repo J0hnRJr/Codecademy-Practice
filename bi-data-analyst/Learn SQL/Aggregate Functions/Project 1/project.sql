@@ -4,5 +4,7 @@ SELECT
     AVG(employees)
 FROM
     startups
+WHERE
+    employees > 500
 GROUP BY
     location;
