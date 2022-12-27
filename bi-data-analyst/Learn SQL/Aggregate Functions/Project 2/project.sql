@@ -1,10 +1,12 @@
 --All lines written by John Renodin
 SELECT
 USER,
-SUM(score)
+COUNT(*)
 FROM
     hacker_news
+WHERE
+    url LIKE '%watch?v=dQw4w9WgXcQ%'
 GROUP BY
 USER
-HAVING
-    SUM(score) > 200;
+ORDER BY
+    COUNT(*) DESC;
