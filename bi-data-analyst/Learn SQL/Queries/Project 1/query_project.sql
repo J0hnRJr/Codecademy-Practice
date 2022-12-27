@@ -4,5 +4,4 @@ SELECT
 FROM
     nomnom
 WHERE
-    cuisine = 'Italian'
-    AND price = '$$$';
+    name LIKE '%meatball%';
