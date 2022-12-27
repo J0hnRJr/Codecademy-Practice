@@ -5,4 +5,6 @@ SELECT
 FROM
     startups
 GROUP BY
-    category;
+    category
+HAVING
+    COUNT(*) > 3;
