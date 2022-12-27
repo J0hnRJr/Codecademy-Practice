@@ -1,5 +1,5 @@
 --All lines written by John Renodin
 SELECT
-    SUM(valuation) AS 'TotalValue'
+    MAX(raised) AS 'MaxRaised'
 FROM
     startups;
