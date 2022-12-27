@@ -1,7 +1,7 @@
 --All lines written by John Renodin
 SELECT
     category,
-    AVG(valuation)
+    ROUND(AVG(valuation), 2)
 FROM
     startups
 GROUP BY
