@@ -4,4 +4,6 @@ SELECT
 FROM
     nomnom
 WHERE
-    name LIKE '%meatball%';
+    neighborhood = 'Midtown'
+    OR neighborhood = 'Downton'
+    OR neighborhood = 'Chinatown';
