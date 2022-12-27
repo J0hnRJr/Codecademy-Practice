@@ -1,7 +1,5 @@
 --All lines written by John Renodin
 SELECT
-    MAX(raised) AS 'AmountRaisedDuringSeedStage'
+    MIN(founded) AS 'OldestCompany'
 FROM
-    startups
-WHERE
-    stage = 'Seed';
+    startups;
