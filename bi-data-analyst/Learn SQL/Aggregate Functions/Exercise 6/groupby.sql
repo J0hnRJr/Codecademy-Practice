@@ -4,5 +4,7 @@ SELECT
     COUNT(*)
 FROM
     fake_apps
+WHERE
+    downloads > 20000 -- John Renodin added WHERE clause
 GROUP BY
     price;
