@@ -1,5 +1,10 @@
 --All lines written by John Renodin
 SELECT
-    SUM(score)
+USER,
+SUM(score)
 FROM
-    hacker_news;
+    hacker_news
+GROUP BY
+USER
+HAVING
+    SUM(score) > 200;
