@@ -1,6 +1,7 @@
 --All lines provided by Codecademy
 SELECT
     name,
-    genre
+    genre,
+    YEAR
 FROM
     movies;
