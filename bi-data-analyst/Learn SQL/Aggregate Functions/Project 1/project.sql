@@ -1,10 +1,8 @@
 --All lines written by John Renodin
 SELECT
-    category,
-    COUNT(*)
+    location,
+    AVG(employees)
 FROM
     startups
 GROUP BY
-    category
-HAVING
-    COUNT(*) > 3;
+    location;
