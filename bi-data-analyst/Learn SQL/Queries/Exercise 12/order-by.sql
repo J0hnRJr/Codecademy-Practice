@@ -1,8 +1,9 @@
---All lines provided by Codecademy
+--All lines written by John Renodin
 SELECT
     name,
-    YEAR
+    YEAR,
+    imdb_rating
 FROM
     movies
 ORDER BY
-    name;
+    imdb_rating DESC;
