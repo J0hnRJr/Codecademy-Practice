@@ -1,5 +1,5 @@
 --All lines provided by Codecademy
 SELECT DISTINCT
-    genre
+    YEAR --John Renodin modified as instructed
 FROM
     movies;
