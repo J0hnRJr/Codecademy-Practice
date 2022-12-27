@@ -1,5 +1,8 @@
 --All lines written by John Renodin
 SELECT
+    category,
     AVG(valuation)
 FROM
-    startups;
+    startups
+GROUP BY
+    category
