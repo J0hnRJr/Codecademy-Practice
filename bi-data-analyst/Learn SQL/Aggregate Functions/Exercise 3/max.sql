@@ -1,5 +1,5 @@
--- All lines provided by Codecademy
+-- All lines written by John Renodin
 SELECT
-    MIN(downloads)
+    MAX(price)
 FROM
     fake_apps;
