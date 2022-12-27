@@ -4,4 +4,5 @@ SELECT
 FROM
     nomnom
 WHERE
-    review > 3;
+    cuisine = 'Italian'
+    AND price = '$$$';
