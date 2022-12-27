@@ -4,4 +4,6 @@ SELECT
 FROM
     movies
 WHERE
-    imdb_rating < 5;
+    YEAR > 2014;
+
+--John Renodin modified line 7 as instructed
