@@ -1,5 +1,5 @@
 --All lines written by John Renodin
 SELECT
-    COUNT(*) AS 'CompanyCount'
+    SUM(valuation) AS 'TotalValue'
 FROM
     startups;
