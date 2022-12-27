@@ -4,4 +4,6 @@ SELECT
 FROM
     movies
 WHERE
-    name LIKE '%man%';
+    name LIKE 'The %';
+
+--John Renodin modified line 7 as instructed
