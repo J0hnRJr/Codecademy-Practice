@@ -4,4 +4,4 @@ SELECT
 FROM
     nomnom
 WHERE
-    cuisine = 'Chinese';
+    review > 3;
