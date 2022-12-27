@@ -1,4 +1,4 @@
---Code Provided by Codecademy
+--Code Provided by Codecademy modified by John Renodin
 SELECT
     category,
     price,
@@ -6,5 +6,5 @@ SELECT
 FROM
     fake_apps
 GROUP BY
-    category,
-    price;
+    1,
+    2;
