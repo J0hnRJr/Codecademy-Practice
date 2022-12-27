@@ -4,6 +4,4 @@ SELECT
 FROM
     nomnom
 WHERE
-    neighborhood = 'Midtown'
-    OR neighborhood = 'Downton'
-    OR neighborhood = 'Chinatown';
+    health IS NULL;
