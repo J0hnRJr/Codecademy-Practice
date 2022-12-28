@@ -12,4 +12,4 @@ FROM
 SELECT
     *
 FROM
-    customers
+    customers LIMIT 5;
