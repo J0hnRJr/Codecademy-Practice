@@ -21,3 +21,15 @@ FROM
 WHERE
     start_month <= MONTH
     AND end_month >= MONTH;
+
+SELECT
+    MONTH,
+    COUNT(*)
+FROM
+    newspaper
+    CROSS JOIN months
+WHERE
+    start_month <= MONTH
+    AND end_month >= MONTH
+GROUP BY
+    MONTH;
