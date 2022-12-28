@@ -8,3 +8,9 @@ SELECT
     COUNT(*)
 FROM
     online;
+
+SELECT
+    COUNT(*)
+FROM
+    newspaper
+    INNER JOIN online ON newspaper.id = online.id;
