@@ -35,3 +35,25 @@ new_insurance_cost = 250 * age - 128 * sex \
 change_in_insurance_cost = new_insurance_cost - insurance_cost
 print("The change in estimated cost for being male instead of female is " + str(change_in_insurance_cost) + " dollars.")
 # Extra Practice
+sex = 0
+smoker = 1
+new_insurance_cost = 250 * age - 128 * sex \
+  + 370 * bmi + 425 * num_of_children \
+  + 24000 * smoker - 12500
+change_in_insurance_cost = new_insurance_cost - insurance_cost
+print("The change in estimated cost for being a smoker instead of a non-smoker is " + str(change_in_insurance_cost) + " dollars.")
+
+smoker = 0
+num_of_children += 2
+new_insurance_cost = 250 * age - 128 * sex \
+  + 370 * bmi + 425 * num_of_children \
+  + 24000 * smoker - 12500
+change_in_insurance_cost = new_insurance_cost - insurance_cost
+print("The change in estimated cost for two more children is " + str(change_in_insurance_cost) + " dollars.")
+
+num_of_children -= 4
+new_insurance_cost = 250 * age - 128 * sex \
+  + 370 * bmi + 425 * num_of_children \
+  + 24000 * smoker - 12500
+change_in_insurance_cost = new_insurance_cost - insurance_cost
+print("The change in estimated cost for two fewer children is " + str(change_in_insurance_cost) + " dollars.")
