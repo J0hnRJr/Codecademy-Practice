@@ -1,15 +1,6 @@
--- All lines provided by Codecademy
+-- All lines written by John Renodin
 SELECT
     *
 FROM
-    trips;
-
-SELECT
-    *
-FROM
-    riders;
-
-SELECT
-    *
-FROM
-    cars;
+    riders
+    CROSS JOIN cars;
