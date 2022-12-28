@@ -1,5 +1,7 @@
 -- All lines written by John Renodin
 SELECT
-    AVG(cost)
+    *
 FROM
-    trips;
+    riders
+WHERE
+    total_trips < 500;
