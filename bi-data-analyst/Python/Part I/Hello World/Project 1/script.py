@@ -19,7 +19,8 @@ new_insurance_cost = 50 * age - 128 * sex \
 change_in_insurance_cost = new_insurance_cost - insurance_cost
 print("The change in cost of insurance after increasing the age by 4 years is " + str(change_in_insurance_cost) + " dollars.")
 # BMI Factor
-
+age = 28
+bmi += 3.1
 
 # Male vs. Female Factor
 
