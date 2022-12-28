@@ -2,5 +2,9 @@
 SELECT
     *
 FROM
-    trips
-    INNER JOIN cars ON trips.car_id = cars.id;
+    riders
+UNION
+SELECT
+    *
+FROM
+    riders2;
