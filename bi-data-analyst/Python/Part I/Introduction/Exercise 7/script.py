@@ -4,3 +4,4 @@ release_year = 1990
 runtime = 2
 
 # Define the rating_out_of_10 float variable below: 
+rating_out_of_10 = 9.5
