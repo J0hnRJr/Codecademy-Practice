@@ -3,3 +3,8 @@ SELECT
     COUNT(*)
 FROM
     newspaper;
+
+SELECT
+    COUNT(*)
+FROM
+    online;
