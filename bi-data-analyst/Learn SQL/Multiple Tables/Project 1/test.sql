@@ -1,10 +1,5 @@
 -- All lines written by John Renodin
 SELECT
-    *
+    AVG(cost)
 FROM
-    riders
-UNION
-SELECT
-    *
-FROM
-    riders2;
+    trips;
