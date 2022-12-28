@@ -6,3 +6,9 @@ FROM
 WHERE
     start_month <= 3
     AND end_month >= 3;
+
+SELECT
+    *
+FROM
+    newspaper
+    CROSS JOIN months;
