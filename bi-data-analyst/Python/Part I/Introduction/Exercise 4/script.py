@@ -1,2 +1,2 @@
 # All line written by John Renodin
-print("J0hnRJr")
+print('J0hnRJr')
