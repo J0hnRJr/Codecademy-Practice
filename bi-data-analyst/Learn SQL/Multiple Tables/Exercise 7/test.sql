@@ -12,3 +12,12 @@ SELECT
 FROM
     newspaper
     CROSS JOIN months;
+
+SELECT
+    *
+FROM
+    newspaper
+    CROSS JOIN months
+WHERE
+    start_month <= MONTH
+    AND end_month >= MONTH;
