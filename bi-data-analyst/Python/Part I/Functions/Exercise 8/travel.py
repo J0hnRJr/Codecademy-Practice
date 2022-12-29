@@ -5,3 +5,6 @@ mug_price = 5.99
 poster_price = 2.00
 
 # Write your code below:
+# Lines below written by John Renodin
+max_price = max(tshirt_price, shorts_price, mug_price, poster_price)
+print(max_price)
