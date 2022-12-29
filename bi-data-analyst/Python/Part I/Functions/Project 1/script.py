@@ -1,6 +1,7 @@
-# All lines provided by Codecademy
+# All lines provided by Codecademy execept lines 3-4.
 # Create calculate_insurance_cost() function below: 
-
+def insurance_cost():
+  
 
 # Initial variables for Maria 
 age = 28
