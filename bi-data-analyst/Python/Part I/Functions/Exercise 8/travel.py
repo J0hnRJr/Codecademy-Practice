@@ -8,3 +8,5 @@ poster_price = 2.00
 # Lines below written by John Renodin
 max_price = max(tshirt_price, shorts_price, mug_price, poster_price)
 print(max_price)
+min_price = min(tshirt_price, shorts_price, mug_price, poster_price)
+print(min_price)
