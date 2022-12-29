@@ -10,4 +10,4 @@ print_remaining_budget(current_budget)
 def deduct_expense(budget, expense):
   return budget - expense
 shirt_expense = 9
-
+new_budget_after_shirt = deduct_expense(current_budget, shirt_expense)
