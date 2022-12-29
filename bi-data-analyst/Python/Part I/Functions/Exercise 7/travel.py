@@ -11,3 +11,4 @@ def trip_planner(
 trip_planner("France", "Germany", "Denmark")
 trip_planner("Denmark", "France", "Germany")
 trip_planner(first_destination="Iceland", final_destination="Germany", second_destination="India")
+trip_planner("Brooklyn", "Queens")
