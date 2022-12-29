@@ -8,3 +8,4 @@ def trip_planner(
     print('First, we will stop in ' + str(first_destination) + \
     ', then ' + str(second_destination) + \
     ', and lastly ' + str(final_destination))
+trip_planner("France", "Germany", "Denmark")
