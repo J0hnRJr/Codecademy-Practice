@@ -5,4 +5,4 @@ def calculate_expenses(
   hotel_rate,
   trip_time
 ):
-  
+  car_rental_total = car_rental_rate * trip_time
