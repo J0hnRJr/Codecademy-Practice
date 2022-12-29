@@ -4,3 +4,4 @@ def trip_planner(
   second_destination, 
   final_destination = "Codecademy HQ"
 ):
+    print('Here is what your trip will look like!')
