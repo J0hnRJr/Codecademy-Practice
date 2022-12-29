@@ -5,3 +5,4 @@ def directions_to_timesSq():
   print("Get off the Times Square 42nd Street stop.")
 
 # Call your function here:
+directions_to_timesSq()
