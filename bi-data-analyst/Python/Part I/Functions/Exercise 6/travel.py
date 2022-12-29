@@ -6,3 +6,4 @@ def calculate_expenses(
   trip_time
 ):
   car_rental_total = car_rental_rate * trip_time
+  hotel_total = hotel_rate * trip_time - 10
