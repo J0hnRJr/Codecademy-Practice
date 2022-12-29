@@ -10,3 +10,4 @@ def trip_planner(
     ', and lastly ' + str(final_destination))
 trip_planner("France", "Germany", "Denmark")
 trip_planner("Denmark", "France", "Germany")
+trip_planner(first_destination="Iceland", final_destination="Germany", second_destination="India")
