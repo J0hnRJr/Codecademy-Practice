@@ -5,3 +5,5 @@ trip_planner_welcome("J0hnRJr")
 def estimated_time_rounded(time):
   return round(time)
 estimate = estimated_time_rounded(5.6)
+def destination_setup(origin, destination, estimated_time, mode_of_transport='Car'):
+  
