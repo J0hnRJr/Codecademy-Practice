@@ -6,4 +6,5 @@ incoming_class =[
   ["Madison", "Indian", 7]
 ]
 incoming_class[2][2] = 8
+incoming_class[-3][-3] = "Ken"
 print(incoming_class)
