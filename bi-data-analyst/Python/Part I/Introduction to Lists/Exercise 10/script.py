@@ -3,3 +3,6 @@
 order_list = ["Celery", "Orange Juice", "Orange", "Flatbread"]
 order_list.remove("Flatbread")
 print(order_list)
+
+new_store_order_list = ["Orange", "Apple", "Mango", "Broccoli", "Mango"]
+print(new_store_order_list)
