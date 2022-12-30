@@ -1,10 +1,10 @@
 # All lines provided by Codecademy
 example_statement = "No"
 
-statement_one =
+statement_one = "Yes"
 
-statement_two =
+statement_two = "Yes"
 
-statement_three =
+statement_three = "No"
 
-statement_four =
+statement_four = "Yes"
