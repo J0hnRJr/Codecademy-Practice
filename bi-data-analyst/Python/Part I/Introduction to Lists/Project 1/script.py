@@ -18,3 +18,5 @@ valentina_insurance_cost = estimate_insurance_cost(name = "Valentina", age = 53,
 # Add your code here
 names = ["Maria", "Rohan", "Valentina"]
 insurance_costs = [4150.0,5320.0,35210.0]
+insurance_data = zip(names, insurance_costs)
+print(insurance_data)
