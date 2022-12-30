@@ -5,4 +5,5 @@ incoming_class =[
   ["Tanya", "Ukrainian", 9],
   ["Madison", "Indian", 7]
 ]
+incoming_class[2][2] = 8
 print(incoming_class)
