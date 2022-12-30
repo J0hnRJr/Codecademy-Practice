@@ -11,4 +11,5 @@ customer_data = [
   ['Depak', 'Medium', False]
 ]
 customer_data[2][2] = False
+customer_data[1].remove(False)
 print(customer_data)
