@@ -9,3 +9,6 @@ class_name_test = [
 print(class_name_test)
 sams_score = class_name_test[2][1]
 print(sams_score)
+
+ellies_score = class_name_test[-1][-1]
+print(ellies_score)
