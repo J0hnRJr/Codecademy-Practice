@@ -7,3 +7,5 @@ class_name_test = [
   ["Ellie", 101.5]
 ]
 print(class_name_test)
+sams_score = class_name_test[2][1]
+print(sams_score)
