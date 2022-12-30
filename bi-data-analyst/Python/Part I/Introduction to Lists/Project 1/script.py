@@ -1,4 +1,4 @@
-# All lines provided by Codecademy
+# All lines provided by Codecademy. Modified by John Renodin
 # Function to estimate insurance cost:
 def estimate_insurance_cost(name, age, sex, bmi, num_of_children, smoker):
   estimated_cost = 250*age - 128*sex + 370*bmi + 425*num_of_children + 24000*smoker - 12500
@@ -16,3 +16,4 @@ rohan_insurance_cost = estimate_insurance_cost(name =
 valentina_insurance_cost = estimate_insurance_cost(name = "Valentina", age = 53, sex = 0, bmi = 31.4, num_of_children = 0, smoker = 1)
 
 # Add your code here
+names = ["Maria", "Rohan", "Valentina"]
