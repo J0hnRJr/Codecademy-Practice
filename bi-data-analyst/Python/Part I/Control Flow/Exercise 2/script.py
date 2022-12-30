@@ -1,7 +1,7 @@
-# All lines provided by Codecademy
+# All lines provided by Codecademy. Modified by John Renodin
 
-statement_one =
+statement_one = True
 
-statement_two =
+statement_two = False
 
-statement_three =
+statement_three = True
