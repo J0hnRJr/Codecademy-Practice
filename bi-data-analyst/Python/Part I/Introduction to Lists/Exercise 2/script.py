@@ -1,2 +1,2 @@
 # All lines provided by Codecademy
-ints_and_strings = [1, 2, 3, "four", "five"]
+ints_and_strings = [1, 2, 3, "four", "five", "six", "seven"]
