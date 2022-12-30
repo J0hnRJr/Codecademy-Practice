@@ -20,3 +20,4 @@ names = ["Maria", "Rohan", "Valentina"]
 insurance_costs = [4150.0,5320.0,35210.0]
 insurance_data = list(zip(names, insurance_costs))
 print(insurance_data)
+estimated_insurance_data = []
