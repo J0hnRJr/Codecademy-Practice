@@ -5,6 +5,8 @@ def analyze_smoker(smoker_status):
     print("To lower your cost, you should consider quitting smoking.")
   else:
     print("Smoking is not an issue for you.")
+def analyze_bmi(bmi_value):
+  print(bmi_value)
 # Function to estimate insurance cost:
 def estimate_insurance_cost(name, age, sex, bmi, num_of_children, smoker):
   estimated_cost = 250*age - 128*sex + 370*bmi + 425*num_of_children + 24000*smoker - 12500
