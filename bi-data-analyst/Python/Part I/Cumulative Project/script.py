@@ -8,3 +8,6 @@ paintings.append(['The Wounded Deer', 1946])
 paintings.append(['Me and My Doll', 1937])
 print(paintings)
 paintings_length = len(paintings)
+
+audio_tour_number = list(range(1, paintings_length + 1))
+print(audio_tour_number)
