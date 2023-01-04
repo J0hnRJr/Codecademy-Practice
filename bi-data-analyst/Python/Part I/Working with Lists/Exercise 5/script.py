@@ -6,3 +6,4 @@ big_range = range(2, 3000, 10)
 # Your code below: 
 long_list_len = len(long_list)
 print(long_list_len)
+big_range_length = len(big_range)
