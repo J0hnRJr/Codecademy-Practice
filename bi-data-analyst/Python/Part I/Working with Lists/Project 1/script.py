@@ -12,3 +12,6 @@ print("There are " + str(num_medical_records) + " medical records.")
 
 first_medical_record = medical_records[0]
 print("Here is the first medical record: " + str(first_medical_record))
+
+medical_records.sort()
+print("Here are the medical records sorted by insurance cost: " + str(medical_records))
