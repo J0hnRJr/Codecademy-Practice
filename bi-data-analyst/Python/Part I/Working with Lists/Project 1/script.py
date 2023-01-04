@@ -9,3 +9,5 @@ medical_records = list(zip(insurance_costs, names))
 print(medical_records)
 num_medical_records = len(medical_records)
 print("There are " + str(num_medical_records) + " medical records.")
+
+first_medical_record = medical_records[0]
