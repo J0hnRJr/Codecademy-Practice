@@ -5,3 +5,4 @@ squares = []
 for digit in single_digits:
   print(digit)
   squares.append(digit*digit)
+print(squares)
