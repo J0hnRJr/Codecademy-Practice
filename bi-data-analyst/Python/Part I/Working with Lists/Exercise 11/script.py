@@ -3,3 +3,4 @@ inventory = ["twin bed", "twin bed", "headboard", "queen bed", "king bed", "dres
 inventory_len = len(inventory)
 first = inventory[0]
 last = inventory[-1]
+inventory_2_6 = inventory[2:6]
