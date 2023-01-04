@@ -22,3 +22,4 @@ for i in range(len(names)):
     print("The insurance cost for " + str(name) + " is equal to the average.")
 
 updated_estimated_costs = [cost * (11 / 10) for cost in estimated_insurance_costs]
+print(updated_estimated_costs)
