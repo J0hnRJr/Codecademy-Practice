@@ -13,3 +13,4 @@ audio_tour_number = list(range(1, paintings_length + 1))
 print(audio_tour_number)
 
 master_list = list(zip(paintings, audio_tour_number))
+print(master_list)
