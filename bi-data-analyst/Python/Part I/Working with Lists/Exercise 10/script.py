@@ -1,4 +1,4 @@
-# All lines provided by Codecademy
+# All lines provided by Codecademy. Modified by John Renodin.
 games = ["Portal", "Minecraft", "Pacman", "Tetris", "The Sims", "Pokemon"]
 
 # Your code below:
