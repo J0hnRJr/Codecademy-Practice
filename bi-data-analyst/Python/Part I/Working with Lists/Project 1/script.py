@@ -20,3 +20,4 @@ cheapest_three = medical_records[0:3]
 print("Here are the three cheapest insurance costs in our medical records: " + str(cheapest_three))
 
 priciest_three = medical_records[-3:]
+print("Here are the three most expensive insurance costs in our medical records: " + str(priciest_three))
