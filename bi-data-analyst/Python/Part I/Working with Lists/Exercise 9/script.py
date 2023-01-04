@@ -1,4 +1,4 @@
-# All lines provided by Codecademy
+# All lines provided by Codecademy. Modified by John Renodin.
 # Checkpoint 1 & 2
 addresses = ["221 B Baker St.", "42 Wallaby Way", "12 Grimmauld Place", "742 Evergreen Terrace", "1600 Pennsylvania Ave", "10 Downing St."]
 
@@ -11,3 +11,5 @@ names = ["Ron", "Hermione", "Harry", "Albus", "Sirius"]
 # Checkpoint 4 & 5
 cities = ["London", "Paris", "Rome", "Los Angeles", "New York"]
 sorted_cities = cities.sort()
+
+addresses.sort()
