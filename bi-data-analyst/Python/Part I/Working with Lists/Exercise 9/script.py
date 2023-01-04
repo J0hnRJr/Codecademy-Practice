@@ -13,3 +13,4 @@ cities = ["London", "Paris", "Rome", "Los Angeles", "New York"]
 sorted_cities = cities.sort()
 
 addresses.sort()
+print(addresses)
