@@ -10,8 +10,9 @@ names.sort()
 
 # Checkpoint 4 & 5
 cities = ["London", "Paris", "Rome", "Los Angeles", "New York"]
-sorted_cities = cities.sort()
+sorted_cities = cities.sort(reverse=True)
 
 addresses.sort()
 print(addresses)
 print(sorted_cities)
+print(cities)
