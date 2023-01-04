@@ -5,3 +5,5 @@ actual_insurance_costs = [1100.0, 2200.0, 3300.0, 4400.0, 5500.0, 6600.0, 7700.0
 
 # Add your code here
 total_cost = 0
+for cost in actual_insurance_costs:
+  total_cost += cost
