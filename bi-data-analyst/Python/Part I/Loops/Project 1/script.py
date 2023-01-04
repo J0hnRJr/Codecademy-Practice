@@ -14,3 +14,9 @@ for i in range(len(names)):
   name = names[i]
   insurance_cost = actual_insurance_costs[i]
   print("The insurance cost for " + str(name) + " is " + str(insurance_cost) + " dollars.")
+  if insurance_cost > average_cost:
+    print("The insurance cost for " + str(name) + " is above average.")
+  elif insurance_cost < average_cost:
+    print("The insurance cost for " + str(name) + " is below average.")
+  else:
+    print("The insurance cost for " + str(name) + " is equal to the average.")
