@@ -1,2 +1,7 @@
-# All lines provided by Codecademy
+# All lines provided by Codecademy. Modified by John Renodin
 ages = [12, 38, 34, 26, 21, 19, 67, 41, 17]
+
+for age in ages:
+  if age < 21:
+    continue
+  print(age)
