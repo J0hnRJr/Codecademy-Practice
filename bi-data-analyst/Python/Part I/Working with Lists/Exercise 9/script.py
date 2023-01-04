@@ -14,3 +14,4 @@ sorted_cities = cities.sort()
 
 addresses.sort()
 print(addresses)
+print(sorted_cities)
