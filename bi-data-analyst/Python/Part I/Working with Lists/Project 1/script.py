@@ -18,3 +18,5 @@ print("Here are the medical records sorted by insurance cost: " + str(medical_re
 
 cheapest_three = medical_records[0:3]
 print("Here are the three cheapest insurance costs in our medical records: " + str(cheapest_three))
+
+priciest_three = medical_records[-3:]
