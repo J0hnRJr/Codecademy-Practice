@@ -6,3 +6,4 @@ for digit in single_digits:
   print(digit)
   squares.append(digit*digit)
 print(squares)
+cubes = [digit ** 3 for digit in single_digits]
